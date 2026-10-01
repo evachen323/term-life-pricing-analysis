@@ -81,7 +81,7 @@ As the interest rate increases, the present value of future death benefits decre
 - `pricing_model.py` — Interactive pricing calculator with user-defined assumptions and input validation
 - `sensitivity_analysis.py` — Performs mortality and interest rate sensitivity analyses and generates charts
 - `mortality_table.csv` — Contains age- and gender-specific mortality rates
-- `pricing_result.csv` — Stores the output from the pricing calculator
+- `pricing_result.csv` — Generated when the pricing calculator is run (excluded from version control)
 - `mortality_sensitivity.csv` — Stores mortality sensitivity analysis results
 - `interest_sensitivity.csv` — Stores interest rate sensitivity analysis results
 - `mortality_sensitivity.png` — Mortality sensitivity analysis chart

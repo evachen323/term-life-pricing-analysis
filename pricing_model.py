@@ -86,7 +86,7 @@ print("Gross Premium:", round(G, 2))
 result=pd.DataFrame([{
     "Gender":gender,
     "Entry age":age,
-    "Sun Assured":sum_assured,
+    "Sum Assured":sum_assured,
     "Term":term,
     "Interest Rate":i,
     "Mortality Multiplier":mortality_multiplier,

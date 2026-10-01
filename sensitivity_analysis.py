@@ -25,7 +25,7 @@ for i in interest_scenarios:
                     "Gross Premium":round(G,2)})
 
 results_df = pd.DataFrame(results)
-results_df["Gross Premium"].is_monotonic_increasing, \
+assert results_df["Gross Premium"].is_monotonic_increasing, \
     "Gross premium should increase as mortality increases."
 results_df.to_csv("mortality_sensitivity.csv", index=False)
 
